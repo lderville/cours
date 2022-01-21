@@ -1,7 +1,7 @@
 <?php
 try {
     // chaine de connexion à la base de données
-    $dsn = 'mysql:host=localhost;dbname=bpbukh41fqvikukr5pt2';
+    $dsn = 'mysql:host=bpbukh41fqvikukr5pt2-mysql.services.clever-cloud.com;dbname=bpbukh41fqvikukr5pt2';
     // option de connexion : encodage UTF8 pour MySQL
     $options = [PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"];
     // création d'une instance de connexion à la base de données et ouverture de la connexion
